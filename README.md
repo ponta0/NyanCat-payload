@@ -10,6 +10,7 @@ Makefileのオプション
 
 
 nasm,python2必須
+
 runオプションを使う場合qemuも必要
 
 ```sh
