@@ -33,3 +33,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build
         run: make build
+      
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3.0.0
+        with: 
+          name: Pre-Built Image
+          path: disk.img
