@@ -9,12 +9,12 @@ Makefileのオプション
 | clean | 生成されたファイルを削除する |
 
 
-nasm,python2必須
+nasm,gcc,python3必須
 
 runオプションを使う場合qemuも必要
 
 ```sh
-$ pip2 install -r requirements.txt # 通常
-$ pip2 install --no-deps pip_data/* # 上のコマンドでエラーが出る場合
+$ pip3 install -r requirements.txt
 $ make build
+$ make run # QEMUにて起動します
 ```

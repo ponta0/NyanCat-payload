@@ -1,2 +1,2 @@
-python-midi
+mido
 pillow
